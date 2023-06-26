@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/registro.css">
+    <link rel="shortcut icon" href="../images/h.png" type="image/x-icon">
+    <title>HURBAN</title>
+    <link rel="shortcut icon" href="../images/h.png" type="image/x-icon">
+    
+</head>
+<body>
+
+    <div class="regis1">
+        
+        <form class="form1" action="Regis.php" method="post"> 
+
+            <h1><b>Hurban</b></h1>
+
+            <p id="pi1"><b>Descubrir cómo cultivar y crear tu propia huerta.</b></p>
+            
+            <hr id="pi2">
+
+            
+            <input class="control" type="text" name="nombresCliente"  placeholder="Ingrese Nombres" required>
+            <input class="control" type="text" name="apellidosCliente" placeholder="Ingrese Apellidos" required>
+            <input class="control" type="email" name="correoCliente" placeholder="Ingrese Correo Electronico" required>
+            <input class="control" type="tel" name="telefonoCliente" placeholder="Ingrese su Telefono" maxlength="10" required>
+            <input class="control" type="date" name="fechaNacimiento" placeholder="Seleccione" required>
+            <select class="control" name="tipoDocumentoCliente" value="tipos de documetno" required>
+                <!-- Opciones de la lista -->
+                <option value="1">CC</option>
+                <option value="2">CE</option>
+            </select>
+            <input class="control" type="text" name="documentoCliente" placeholder="Numero de Cedula" autocomplete="off" required>
+            <input class="control" type="password" name="claveCliente" id =contraseña placeholder="Digite su Contraseña" autocomplete="off" required >
+
+            <p>¡Prepárate para transformar tu habilidad para cultivar! Regístrate y desbloquea un mundo de conocimientos y técnicas que te guiarán hacia una huerta próspera y sostenible. ¡Empieza hoy y cultiva tu propio paraíso verde!</p><br>
+            <p>Al registrarte aceptas nuestros <br> <a href="TerminosyCondiciones.html">Terminos y Condiciones</a></p>
+
+            <input class="btn-2" type="submit" name="registro" value="Registrarte">
+
+        </form>
+
+        <form class="form1_1">
+            <p>¿Tienes Cuenta? <a href="inicio.html"> Inciar Seccion</a></p><br>
+        </form>
+
+        <footer class="foo1">
+            <a href="index.html"><b>Inicio | </b></a>
+            <a href="SobreNosotros.html"><b>Conozcanos | </b></a>
+            <a href="Contacto.html"><b>Contacto | </b></a><br>
+            <p>2023 Hurban for World.</p>
+        </footer>
+
+    </div>
+</body>
+
+
