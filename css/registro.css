@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+/*---------------------REGISTRO--------------------------------------------------------*/
+
+
+.regis1 .form1 {
+    width: 400px;
+    background-color: white ;
+    margin: auto;
+    border: 1px solid #D5D8DC;
+    border-radius: 3px;
+    margin-top: 30px;
+    color: black;
+
+}
+
+.regis1 .form1 h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+    font-style: italic;
+}
+
+ .regis1 #pi1 {
+    font-size: 18px;
+    color: #909497;
+}
+
+.regis1 #pi2 {
+    width: 85%;
+    color: grey;
+    height: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.regis1 .control {
+    width: 60%;
+    background: white;
+    padding: 8px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 75px;
+    border: 1px solid #D5D8DC;
+    font-size: 12px;
+
+}
+
+.regis1 .form1 p {
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+.regis1 .form1 p a {
+    color: #2471A3 ;
+}
+
+.regis1 .form1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.regis1 .c2 nav a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+.regis1 .btn-2 {
+    background-color: #3498DB;
+    color: white;
+    border-radius: 10px;
+    width: 60%;
+    height: 45px;
+    margin-left: 75px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: 0px;
+    -webkit-transition-duration: 0.4s;
+
+    
+}
+
+.regis1 .btn-2:hover {
+    background-color: #2E86C1;
+    color: white;
+}
+
+.form1_1 {
+    width: 400px;
+    height: 50px;
+    background-color: white ;
+    margin: auto;
+    border: 1px solid #D5D8DC;
+    border-radius: 3px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.form1_1 a {
+    text-decoration: none;
+    color: #2E86C1;
+    font-size: 15px;
+}
+
+.foo1 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+    color: #797D7F;
+}
+
+.foo1 a {
+    text-decoration: none;
+    color: #797D7F;
+}
